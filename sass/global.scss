@@ -56,12 +56,15 @@ img, embed, object, video {
  *---------------------------------------------------------------------------------------- */
 
 body {
-  font-family: Georgia, "Times New Roman", serif;
+  font-family: $sans;
+  font-weight: 300;
   font-size: 1em;
   line-height: 1.618em;
   color: #333333; }
 
 h1, h2, h3, h4, h5, h6 {
+  font-family: $sans;
+  font-weight: 800;
   margin-bottom: 0.809em;
   line-height: 1em; }
 
@@ -87,7 +90,8 @@ nav {
     padding: 0; } }
 
 b, strong {
-  font-weight: bold; }
+  // font-weight: bold; }
+  font-weight: 700; }
 
 i, em {
   font-style: italic; }
@@ -140,3 +144,24 @@ aside {
 
 .ie6 .cf {
   zoom: 1; }
+
+/* MY STYLES */
+header {
+  text-align: center;
+  h1 {
+    margin-bottom: 0;
+    padding-bottom: 0;
+    font-size: 3em; }
+  span {
+    font-size: 1.5em; } }
+
+h2 {
+  text-align: center;
+  font-size: 1.2em; }
+
+section {
+  margin-top: 1em; }
+
+.map {
+  width: 300px;
+  margin: 0 auto; }

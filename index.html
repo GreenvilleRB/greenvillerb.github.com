@@ -26,6 +26,9 @@
   <link rel="stylesheet" href="css/layout.css" media="all">
   <![endif]-->
 
+  <!-- fonts! -->
+  <link href='http://fonts.googleapis.com/css?family=Terminal+Dosis:300,800' rel='stylesheet' type='text/css'>
+
   <script src="javascripts/modernizr-1.7.min.js"></script>
 
 </head>
@@ -36,56 +39,60 @@
 
     <header>
       <h1>GreenvilleRB</h1>
-      <span id='tagline'>It's Ruby all the way down!</span>
+      <span id='tagline'>It's Ruby all the way down.</span>
     </header>
 
     <div id="main" role="main">
 
-      <section>
-        <h1>When</h1>
-        <p>We meet on the third Tuesday of the month, every month at <time>6pm</time></p>
-      </section>
+      <div class='group-info'>
+        <section>
+          <h2>When</h2>
+          <p>We meet on the third Tuesday of the month, every month at <time>6pm</time></p>
+        </section>
 
-      <section>
-        <h1>Where</h1>
-        <p>We meet at CoWork in Greenville.</p>
-        <div class="location vcard">
-          <span class="fn org">CoWork Greenville</span><br />
-            <span class="adr">
-            <span class="street-address">1040 West Washington Street</span><br />
-            <span class="locality">Greenville</span>, 
-            <span class="region">SC</span><br />
-            <span class='tel'>(864) 372-9495</span>
-          </span>
-        </div>
+        <section>
+          <h2>Who</h2>
 
-        <div class='map'>
-          <iframe width="300" height="300" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="http://maps.google.com/maps?client=safari&amp;oe=UTF-8&amp;ie=UTF8&amp;q=cowork+greenville&amp;fb=1&amp;gl=us&amp;hq=cowork&amp;hnear=0x88578f6662fa1105:0xd8aa9d77bf257696,Greenville,+SC&amp;cid=0,0,15107229751700404231&amp;t=m&amp;ll=34.857975,-82.41261&amp;spn=0.005282,0.006437&amp;z=16&amp;iwloc=A&amp;output=embed"></iframe><br /><small><a href="http://maps.google.com/maps?client=safari&amp;oe=UTF-8&amp;ie=UTF8&amp;q=cowork+greenville&amp;fb=1&amp;gl=us&amp;hq=cowork&amp;hnear=0x88578f6662fa1105:0xd8aa9d77bf257696,Greenville,+SC&amp;cid=0,0,15107229751700404231&amp;t=m&amp;ll=34.857975,-82.41261&amp;spn=0.005282,0.006437&amp;z=16&amp;iwloc=A&amp;source=embed" style="color:#0000FF;text-align:left">View Larger Map</a></small>
-        </div>
+          <p>Anyone who is interested in Ruby is invited to attend.  Our members
+            include full-time Rubyists, web-workers who have used Ruby on one or
+            two products, and those who have only used Ruby for fun (some
+            developers, some not).  While some Greenville Rubyists have used Ruby
+            professionally for years, others have just started with the language.
+            Anyone who is interested in Ruby is more than welcome to attend.</p> 
 
-      </section>
+        </section>
 
-      <section>
-        <h1>Who</h1>
+        <section>
+          <h2>What</h2>
+          <p>Our meetings are pretty informal.  There has been idle talk of presentations in the past, but most meetings go one of two ways: (1) we talk about Ruby and/or general programming topics for an hour or two, or (2) we talk about Ruby/programming for a while and then do some programming related task (e.g., TDDing Conway's Game of Life, a code kata).  We're open to suggestions and new things, but that's what our meetings have looked like in the past.</p>
+        </section>
 
-        <p>Anyone who is interested in Ruby is invited to attend.  Our members
-          include full-time Rubyists, web-workers who have used Ruby on one or
-          two products, and those who have only used Ruby for fun (some
-          developers, some not).  While some Greenville Rubyists have used Ruby
-          professionally for years, others have just started with the language.
-          Anyone who is interested in Ruby is more than welcome to attend.</p> 
+        <section>
+          <h2>The next meeting</h2>
+          <p>Honestly, the best way to stay informed about the next meeting is to follow us on Twitter.  We'll announce the meeting there, and if there is a change for any reason, we'll announce that there as well.</p>
+        </section>
+      </div>
 
-      </section>
+      <div class='sidebar'>
+        <section>
+          <h2>Where</h2>
+          <p>We meet at CoWork in Greenville.</p>
+          <div class="location vcard">
+            <span class="fn org">CoWork Greenville</span><br />
+              <span class="adr">
+              <span class="street-address">1040 West Washington Street</span><br />
+              <span class="locality">Greenville</span>, 
+              <span class="region">SC</span><br />
+              <span class='tel'>(864) 372-9495</span>
+            </span>
+          </div>
 
-      <section>
-        <h1>What</h1>
-        <p>Our meetings are pretty informal.  There has been idle talk of presentations in the past, but most meetings go one of two ways: (1) we talk about Ruby and/or general programming topics for an hour or two, or (2) we talk about Ruby/programming for a while and then do some programming related task (e.g., TDDing Conway's Game of Life, a code kata).  We're open to suggestions and new things, but that's what our meetings have looked like in the past.</p>
-      </section>
+          <div class='map'>
+            <iframe width="300" height="300" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="http://maps.google.com/maps?client=safari&amp;oe=UTF-8&amp;ie=UTF8&amp;q=cowork+greenville&amp;fb=1&amp;gl=us&amp;hq=cowork&amp;hnear=0x88578f6662fa1105:0xd8aa9d77bf257696,Greenville,+SC&amp;cid=0,0,15107229751700404231&amp;t=m&amp;ll=34.857975,-82.41261&amp;spn=0.005282,0.006437&amp;z=16&amp;iwloc=A&amp;output=embed"></iframe><br /><small><a href="http://maps.google.com/maps?client=safari&amp;oe=UTF-8&amp;ie=UTF8&amp;q=cowork+greenville&amp;fb=1&amp;gl=us&amp;hq=cowork&amp;hnear=0x88578f6662fa1105:0xd8aa9d77bf257696,Greenville,+SC&amp;cid=0,0,15107229751700404231&amp;t=m&amp;ll=34.857975,-82.41261&amp;spn=0.005282,0.006437&amp;z=16&amp;iwloc=A&amp;source=embed" style="color:#0000FF;text-align:left">View Larger Map</a></small>
+          </div>
+        </section>
+      </div>
 
-      <section>
-        <h1>The next meeting</h1>
-        <p>Honestly, the best way to stay informed about the next meeting is to follow us on Twitter.  We'll announce the meeting there, and if there is a change for any reason, we'll announce that there as well.</p>
-      </section>
 
     </div>
 

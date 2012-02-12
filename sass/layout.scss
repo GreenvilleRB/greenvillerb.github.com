@@ -7,7 +7,30 @@
   margin: 0 auto;
   max-width: 60em; }
 
+.group-info {
+  float: left;
+  width: 30em;
+  padding: 1em; }
+
+.sidebar {
+  float: left;
+  width: 20em;
+  padding: 1em; }
+
+header {
+  h1 {
+    margin-bottom: 0.2em;
+    font-size: 5em; }
+  span {
+    font-size: 2.5em; } }
+
 /* 9. CUSTOM LAYOUT & TYPOGRAPHY (Mummy bear) */
 @media screen and (min-width: 30em) and (max-width: 63.236em) {
   #container {
-    width: 30em; } }
+    width: 30em; }
+
+  header {
+    h1 {
+      font-size: 4em; }
+    span {
+      font-size: 2em; } } }
